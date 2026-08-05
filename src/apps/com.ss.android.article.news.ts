@@ -41,7 +41,7 @@ export default defineGkdApp({
           matches: [
             //'([visibleToUser=true] > [text$="广告" || text$="（推广）"][vid="desc" || desc="广告"]) || ([text="应用" || text="购物" || text$="游戏" || text="咨询" || text="服务" || text="预约" || text="子薇剧场"][text.length<6][index=1][visibleToUser=true]) || (ViewGroup[childCount=5] > ImageView +3 [text^="已售" || text^=" 已售"] - TextView - [text="讲解中 丨 "][index=1][visibleToUser=true])',
             //'[id="com.ss.android.article.news:id/a12"]',
-            '[text="直播中"]',
+            '[text="直播中"][visibleToUser=true]',
           ],
           actionCd: 300,
           actionDelay: 200,
