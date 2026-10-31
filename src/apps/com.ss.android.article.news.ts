@@ -43,7 +43,7 @@ export default defineGkdApp({
             //'[id="com.ss.android.article.news:id/a12"]',
             '[visibleToUser=true] > [text^="直播中" || text^="短剧·" || text^="直播间" || text$="直播间"]',
           ],
-          actionCd: 300,
+          actionCd: 500,
           actionDelay: 200,
           fastQuery: true,
           activityIds: ['com.ss.android.ugc.detail.activity.TikTokActivity'],
