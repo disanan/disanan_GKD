@@ -17,9 +17,9 @@ export default defineGkdApp({
             '@View < [vid="main_popviewclose"]',
             //'[text="暂不关注"]',
           ],
-         // snapshotUrls: 'https://i.gkd.li/i/22505380', //获取链接的方法在上一步有说明
+          // snapshotUrls: 'https://i.gkd.li/i/22505380', //获取链接的方法在上一步有说明
         },
       ],
     },
-    ],
+  ],
 });
